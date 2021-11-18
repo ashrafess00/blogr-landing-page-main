@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-danger">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.svg" alt="" >
+        </a>
+        <ul class="navbar-nav me-auto ">
+          <!-- dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Product
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">an</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">an</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Connect
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">an</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- title section -->
+  <div class="titleSection d-flex justify-content-center align-items-center text-center text-white">
+    <div>
+      <h1 class="w-100 f-1">A modern publishing platform</h1>
+      <p>Grow your audience and build your online brand </p>
+      <div>
+        <button class="bg-white rounded-pill p-2 text-primary border-none me-5">Start For Free</button>
+        <button class="bg-white rounded-pill p-2">Learn More</button>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- DESIGNED FORFUTURE -->
+    <section class="forfuture container-fluid mt-5">
+      <h2 class="text-center fw-bold">Designed for the future</h2>
+      <div class="d-md-flex flex-row-reverse align-items-center text-md-start text-center">
+        <img src="./images/illustration-editor-desktop.svg" class="w-50" alt="">
+
+        <section class="d-flex flex-column gap-5 mx-5 ">
+          <article>
+            <h3 class="fw-bold">Introducing an extensible editor</h3>
+            <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.</p>
+          </article>
+          <article>
+            <h3 class="fw-bold">Robust content management</h3>
+            <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+          </article>
+        </section>
+      </div>
+    </section>
+
+
+
+    <!-- infrastructure -->
+    <section class="infrastructure d-flex position-relative">
+      
+        <div class="position-absolute d-flex flex-lg-row flex-sm-column">
+          <div class="me-5">
+            <img src="./images/illustration-phones.svg" class="" alt="">
+          </div>
+          
+          <article class="d-flex flex-column align-items justify-content-center gap-5 pe-5 text-white class="ms-5"">
+          <h3>State of the Art Infrastructure</h3>
+          <p >With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+          <article>
+        </div>
+    </section>
+
+
+
+
+    <!-- free open simple ...  -->
+    <section class="freeopen container-fluid">
+      <div class="d-md-flex  align-items-center text-md-start text-center">
+        <img src="./images/illustration-laptop-desktop.svg" class="w-50" alt="">
+
+        <section class="d-flex flex-column gap-5 mx-5 ">
+          <article>
+            <h3 class="fw-bold">Free, open, simple</h3>
+            <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+          </article>
+          <article>
+            <h3 class="fw-bold">Powerful tooling</h3>
+            <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+              capable of producing even the most complicated sites.</p>
+          </article>
+        </section>
+      </div>
+    </section>
+
+
+
+  
+  <footer class="bg-secondary">
+    <div class="d-flex flex-lg-row flex-sm-column justify-content-between p-5">
+      <div>
+        <img src="./images/logo.svg" class="img-fluid" alt="">
+      </div>
+      <div >
+        <ul class="nav flex-column ">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div >
+        <ul class="nav flex-column ">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div >
+        <ul class="nav flex-column ">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Link</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  
+  
+<!--
+  Product
+
+  Overview
+  Pricing
+  Marketplace
+  Features
+  Integrations
+
+  Company
+
+  About
+  Team
+  Blog
+  Careers
+
+  Connect
+  
+  Contact
+  Newsletter
+  LinkedIn
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
