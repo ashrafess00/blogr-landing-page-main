@@ -91,10 +91,15 @@
     <!-- DESIGNED FORFUTURE -->
     <section class="forfuture container-fluid mt-5">
       <h2 class="text-center fw-bold">Designed for the future</h2>
-      <div class="d-md-flex flex-row-reverse align-items-center text-md-start text-center">
-        <img src="./images/illustration-editor-desktop.svg" class="w-50" alt="">
-
-        <section class="d-flex flex-column gap-5 mx-5 ">
+      <div class="row flex-row-reverse align-items-center">
+        <!-- <img src="./images/illustration-editor-desktop.svg" class="w-50" alt=""> -->
+        <div class="col-md-6 editor">
+          <picture >
+            <source media="(min-width:760px)" class="img-fluid" srcset="./images/illustration-editor-desktop.svg">
+            <img src="./images/illustration-editor-mobile.svg" class="img-fluid" alt="Flowers" style="width:auto;">
+          </picture>
+        </div>
+        <section class="col-md-6 align-items-center text-center text-md-start p-5">
           <article>
             <h3 class="fw-bold">Introducing an extensible editor</h3>
             <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
@@ -116,9 +121,10 @@
     <!-- infrastructure -->
     <section class="infrastructure d-flex position-relative">
       
-        <div class="position-absolute d-flex flex-lg-row flex-sm-column">
+        <div class="position-absolute d-md-flex ">
           <div class="me-5">
-            <img src="./images/illustration-phones.svg" class="" alt="">
+            <img src="./images/illustration-phones.svg"  alt="">
+            
           </div>
           
           <article class="d-flex flex-column align-items justify-content-center gap-5 pe-5 text-white class="ms-5"">
@@ -134,10 +140,15 @@
 
     <!-- free open simple ...  -->
     <section class="freeopen container-fluid">
-      <div class="d-md-flex  align-items-center text-md-start text-center">
-        <img src="./images/illustration-laptop-desktop.svg" class="w-50" alt="">
-
-        <section class="d-flex flex-column gap-5 mx-5 ">
+      <div class="row  align-items-center">
+        <!-- <img src="./images/illustration-laptop-desktop.svg" class="w-50" alt=""> -->
+        <div class="laptop col-md-6">
+          <picture>
+            <source media="(min-width:760px)" class="img-fluid" srcset="./images/illustration-laptop-desktop.svg">
+            <img src="./images/illustration-laptop-mobile.svg" class="img-fluid" alt="laptop">
+          </picture>
+        </div>
+        <section class="col-md-6 align-items-center text-center text-md-start p-5">
           <article>
             <h3 class="fw-bold">Free, open, simple</h3>
             <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
@@ -156,12 +167,12 @@
 
 
   
-  <footer class="bg-secondary">
-    <div class="d-flex flex-lg-row flex-sm-column justify-content-between p-5">
+  <footer class="bg-secondary text-center">
+    <div class="d-sm-flex justify-content-between p-5">
       <div>
         <img src="./images/logo.svg" class="img-fluid" alt="">
       </div>
-      <div >
+      <div class="flex-column ">
         <ul class="nav flex-column ">
           <li class="nav-item">
             <a class="nav-link text-white" aria-current="page" href="#">Active</a>
@@ -186,8 +197,8 @@
           
         </ul>
       </div>
-      <div >
-        <ul class="nav flex-column ">
+      <div class="mx-auto">
+        <ul class="nav flex-column mb-5">
           <li class="nav-item">
             <a class="nav-link text-white" aria-current="page" href="#">Active</a>
           </li>
@@ -206,7 +217,7 @@
         </ul>
       </div>
       <div >
-        <ul class="nav flex-column ">
+        <ul class="nav flex-column mb-5">
           <li class="nav-item">
             <a class="nav-link text-white" aria-current="page" href="#">Active</a>
           </li>

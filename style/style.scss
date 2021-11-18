@@ -3,6 +3,10 @@ $secondary: hsl(208, 49%, 24%);
 $big-radius: 100px;
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+body {
+  overflow-x: hidden;
+}
+
 button {
   border: none;
   min-width: 7rem;
@@ -51,10 +55,12 @@ section.infrastructure {
   padding-left: 5rem;
   padding-right: 5rem;
   margin-top: 15rem;
+  margin-bottom: 15rem;
 }
 .infrastructure div {
   top: -4rem;
   left: 9rem;
+  width: 100%;
 }
 @media screen and (max-width: 1000px) {
   section.infrastructure {
@@ -65,6 +71,9 @@ section.infrastructure {
     div {
       left: 0;
       top: -14rem;
+      div {
+        border: red 1px solid;
+      }
     }
   }
 }
@@ -74,4 +83,19 @@ section.infrastructure {
   img {
     width: 100%;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .laptop {
+    margin-left: -10%;
+    margin-right: auto;
+  }
+  .editor {
+    margin-right: -10%;
+    margin-left: auto;
+  }
+}
+
+footer {
+  margin-top: 2rem;
 }
