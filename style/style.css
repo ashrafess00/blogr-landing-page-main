@@ -12032,7 +12032,7 @@ section.infrastructure {
     top: -14rem;
   }
   section.infrastructure div div {
-    border: red 1px solid;
+    width: 95%;
   }
 }
 
